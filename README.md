@@ -31,29 +31,43 @@ uxlaws/
 
 ## Getting it running
 
-### One command (recommended)
+Pick whichever fits your setup — they all install the same skill.
+
+**Claude Code plugin** (also gives you the `/laws-of-ux` command):
 
 ```
 /plugin marketplace add ali-kk/uxlaws
 /plugin install laws-of-ux@uxlaws
 ```
 
-Start a fresh session. It kicks in on its own when you're working on UI, or you
-can call it directly with `/laws-of-ux`.
+**skills CLI** (works with Claude Code, Cursor, Copilot, Codex, and more):
 
-### Manual (drop the folder in)
+```bash
+npx skills add ali-kk/uxlaws
+```
+
+**npm / npx** (drops it into `~/.claude/skills`; add `--project` for the current repo):
+
+```bash
+npx laws-of-ux
+```
+
+**Manual:**
 
 ```bash
 git clone https://github.com/ali-kk/uxlaws
 cp -r uxlaws/skills/laws-of-ux ~/.claude/skills/laws-of-ux
 ```
 
+Then start a fresh session. It kicks in on its own when you're working on UI, or
+you can call it directly with `/laws-of-ux`.
+
 ### Any other agent
 
 The skill is just `skills/laws-of-ux/` — a `SKILL.md` and some Markdown, no
-code, no dependencies. Point your agent's system prompt at that `SKILL.md` and
-let it open `reference/laws.md` when it needs the detail. For a hosted app, zip
-the `laws-of-ux` folder and upload it under your skills settings.
+dependencies. Point your agent's system prompt at that `SKILL.md` and let it
+open `reference/laws.md` when it needs the detail. For a hosted app, zip the
+`laws-of-ux` folder and upload it under your skills settings.
 
 ## The thirty
 
