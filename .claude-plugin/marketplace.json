@@ -1,0 +1,13 @@
+{
+  "name": "uxlaws",
+  "owner": {
+    "name": "ali-kk"
+  },
+  "plugins": [
+    {
+      "name": "laws-of-ux",
+      "source": "./",
+      "description": "30 evidence-based UX principles for designing, building, and reviewing interfaces."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "laws-of-ux",
+  "version": "1.0.0",
+  "description": "30 evidence-based UX principles as an agent skill — mechanism, how to apply, pitfalls, and a real example for each.",
+  "author": {
+    "name": "ali-kk"
+  },
+  "homepage": "https://github.com/ali-kk/uxlaws",
+  "license": "MIT",
+  "keywords": ["ux", "ui", "design", "usability", "skill", "heuristics"]
+}
